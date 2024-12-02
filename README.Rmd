@@ -1,0 +1,36 @@
+# SoccerStats
+
+SoccerStats is an R package for analyzing soccer statistics, including calculating goals per game, assists per game, and player efficiency. The package helps coaches, analysts, and enthusiasts track and evaluate player performance.
+
+## Installation
+
+You can install the development version of SoccerStats with either CRAN or GitHub
+
+``` r
+install.packages("SoccerStats")
+
+install.packages("devtools")
+devtools::install_github("yourusername/SoccerStats")
+```
+
+## Example
+
+These are the basic examples of how to use each function in the package.
+
+```{r example}
+library(SoccerStats)
+## basic example code
+
+# Goals per game
+goals_per_game(15, 20)
+
+# Assists per game
+assists_per_game(10, 25)
+
+# Player efficiency
+player_efficiency(5, 3, 90)
+```
+
+## License
+
+This package is licensed under the **GPL-3 License**.
